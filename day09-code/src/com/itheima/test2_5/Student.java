@@ -1,7 +1,7 @@
 package com.itheima.test2_5;
 
 public class Student {
-    private String id;
+    private int id;
     private String name;
     private int age;
 
@@ -9,7 +9,7 @@ public class Student {
     public Student() {
     }
 
-    public Student(String id, String name, int age) {
+    public Student(int id, String name, int age) {
         this.id = id;
         this.name = name;
         this.age = age;
@@ -19,7 +19,7 @@ public class Student {
      * 获取
      * @return id
      */
-    public String getId() {
+    public int getId() {
         return id;
     }
 
@@ -27,7 +27,7 @@ public class Student {
      * 设置
      * @param id
      */
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
