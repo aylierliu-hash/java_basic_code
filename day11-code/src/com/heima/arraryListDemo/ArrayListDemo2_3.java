@@ -1,0 +1,21 @@
+package com.heima.arraryListDemo;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo2_3 {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+
+        list.add("aaa");
+        list.add("bbb");
+        list.add("bbb");
+        list.add("ccc");
+
+        System.out.println(list);
+        //修改元素
+        String oldElement = list.set(0, "AAA");
+        System.out.println(oldElement);
+        System.out.println(list);
+
+    }
+}
