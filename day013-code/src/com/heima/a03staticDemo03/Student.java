@@ -1,10 +1,9 @@
-package com.heima.a01staticDemo1;
+package com.heima.a03staticDemo03;
 
 public class Student {
     private String name;
     private int age;
     private String gender;
-    public static String teacherName;
 
 
     public Student() {
@@ -14,22 +13,6 @@ public class Student {
         this.name = name;
         this.age = age;
         this.gender = gender;
-    }
-
-    /**
-     * 获取
-     * @return teacherName
-     */
-    public static String getTeacherName() {
-        return teacherName;
-    }
-
-    /**
-     * 设置
-     * @param teacherName
-     */
-    public static void setTeacherName(String teacherName) {
-        Student.teacherName = teacherName;
     }
 
     /**
@@ -81,6 +64,6 @@ public class Student {
     }
 
     public String toString() {
-        return "Student{name = " + name + ", age = " + age + ", gender = " + gender + ", teacherName = " + teacherName + "}";
+        return "Student{name = " + name + ", age = " + age + ", gender = " + gender + "}";
     }
 }
